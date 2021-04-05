@@ -1,0 +1,114 @@
+body{
+	font-family:verdana;
+	font-size:30px;
+	width:800px;
+	margin:0px;
+	padding:0px;
+}
+.leaves-photo img{
+	height:auto;
+	width:auto;
+	left:100px;
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 1800px;
+	max-height:900px;
+	padding:0px;
+	margin:0px;
+	z-index:1;
+	object-fit:contain;
+	position:relative;
+}
+.water-photo img{
+	height:auto;
+	width:auto;
+	left:100px;
+	max-width: 1800px;
+	max-height:900px;
+	top:250px;
+	padding:0px;
+	margin:0px;
+	z-index:2;
+	position:absolute;	
+}
+.little-temple img{
+	height:auto;
+	width:auto;
+	max-width:400px;
+	max-height:200px;
+	position:absolute;
+	top:350px;
+	left:850px;
+}
+.lotus-center img{
+	width:400px;
+	height:200px;
+	position:absolute;
+	top:-520px;
+	left:500px;
+	cursor:pointer;
+}
+.lotus-left img{
+	top:-650px;
+	left:350px;
+	width:200px;
+	height:150px;
+	position:absolute;
+	cursor:pointer;
+}
+.lotus-right img{
+	top:-175px;
+	left:975px;
+	width:200px;
+	height:150px;
+	position:absolute;
+	cursor:pointer;
+}
+.coin-photo img{
+	top:-130px;
+	left:1050px;
+	width:50px;
+	height:50px;
+	position:absolute;
+	cursor: pointer;
+}
+.introduction h2{
+	float:left;
+	margin-left:100px;
+	margin-top:50px;
+	margin-bottom:5px;
+}
+.introduction h6{
+	float:left;
+	margin-left:100px;
+	margin-top:10px;
+	margin-bottom:150px;
+}
+#myDIV {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	left:300px;
+	width:50%;
+  	padding:10px 0;
+  	float:center;
+  	text-align:left;
+  	background:#FDF5E6;
+  	margin-top:20px;
+  	margin-bottom: 50px;
+  	position:absolute;
+}
+#myDIV p{
+	margin:10px;
+	font-size:22px;
+	color:#191970;
+}
+.returnbutton1 img{
+	float:right;
+	top:550px;
+	left:925px;
+	width:275px;
+	height:100px;
+	line-height:70px;
+	position:absolute;
+}

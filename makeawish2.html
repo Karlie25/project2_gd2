@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		body{
+			background-image: url('background3.png');
+  			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-position: center; 
+		}
+	</style>
+	<link rel="stylesheet" href="makeawishstyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="scriptmakeawish.js"></script>
+</head>
+<body>
+<div class="introduction">
+	<h2>Hello World!</h2>
+	<h6> Welcome to the pond behind the Pagoda</h6>
+</div>
+<div class="leaves-photo">
+	<img src="leaves.png">
+<div class="water-photo">
+	<img src="water.gif">
+<div class="little-temple">
+	<img src="littletemple.png">
+<div class="coin-photo">
+	<img src="coin3.png">
+</div>
+<div class="lotus-center">
+	<img src="lotus centre.png">
+</div>
+<div class="lotus-left">
+	<img src="lotusleft.png">
+</div>	
+<div class="lotus-right">
+	<img src="lotusright.png">
+</div>
+<div class="acceptbutton">
+	<a href="makeawishsecondpage.html"><img src="acceptbutton.png" alt="makeawishsecondpage.html" /></a>
+</div>
+<audio id="myAudio" controls autoplay>
+  <source src="makeawishaudio.mp3" type="audio/mpeg">
+</audio>
+<button onclick="myFunction()">Click me to open/close Instruction details</button>
+<div id="myDIV">
+	<p>
+	<b>Step 1:</b> Find a coin that hidden somewhere in the pond by dragging elements.
+	<br>
+	<b>Step 2:</b> Drag the coin into the temple.
+	<br>
+	<b>Step 3:</b> Make your wish and click "Accept".
+	</p>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+

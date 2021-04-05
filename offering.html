@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		body{
+			background-image: url('backgroundoffer.png');
+  			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-position: center; 
+		}
+	</style>
+	<link rel="stylesheet" href="offering.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="offering.js"></script>
+</head>
+<body>
+<div class="intro">
+	<h2>Hello World!</h2>
+	<h6> Welcome to the main hall of the Pagoda.</h6>
+</div>
+<div class="offerbutton">
+	<a href="mainhallsecondpage.html"><img src="offerbutton.png" alt="mainhallsecondpage.html" /></a>
+</div>
+<div class="mainhallpagoda-photo">
+		<img src="mainhallpogoda1.png" alt="mainhallpagoda-photo" class="center">
+		</div>
+<div class="incensestick">
+	<img src="incensestick1.png">
+</div>
+<div class="lighter">
+	<img src="lighter.png">
+</div>
+<div class="orange">
+	<img src="orange.png">
+</div>
+<div class="orangesecond">
+	<img src="orangesecond.png">
+</div>
+<div class="grapefruit1">
+	<img src="grapefruit1.png">
+</div>
+<div class="plum-photo">
+	<img src="fruit1.png">
+</div>
+<div class="plum2">
+	<img src="plum2.png">
+</div>
+<div class="plum3">
+	<img src="plum3.png">
+</div>
+<div class="orangethird">
+	<img src="orangethird.png">
+</div>
+<div class="kiwi3">
+	<img src="kiwi3.png">
+</div>
+<div class="grapefruit">
+	<img src="grapefruit.png">
+</div>
+<div class="kiwi">
+	<img src="kiwi.png">
+</div>
+<div class="apple1">
+	<img src="apple1.png">
+</div>
+<div class="apple2">
+	<img src="apple2.png">
+</div>
+<button onclick="myFunction()">Click me to open/close Instruction details</button>
+<div id="myDIV">
+	<p>
+	<b>Step 1:</b> Find an incense stick and a lighter that hidden in the room by dragging elements.
+	<br>
+	<b>Step 2:</b> Drag the incense stick and the lighter into the bowl.
+	<br>
+	<b>Step 3:</b> Click the "Offer" button.
+	</p>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<div class="radio">
+	<a href="mainhallpagodachanting.mp3"><img src="radio.png" alt="mainhallpagodachanting.mp3" /></a>
+</div>
+<audio id="myAudio" controls autoplay>
+  <source src="mainhallpagodachanting.mp3" type="audio/mpeg">
+</audio>
